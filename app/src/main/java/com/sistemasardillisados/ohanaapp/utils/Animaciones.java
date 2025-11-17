@@ -1,8 +1,8 @@
-package com.sistemasardillisados.ohanaapp;
+package com.sistemasardillisados.ohanaapp.utils;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.view.View;
-public final class Utils {
+public final class Animaciones {
     //★Animacion
     public static void AnimationBtn(View view) {
         ObjectAnimator shrinkX = ObjectAnimator.ofFloat(view, "scaleX", 1f, 0.9f);

@@ -4,6 +4,8 @@ import android.os.Bundle;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.button.MaterialButton;
+import com.sistemasardillisados.ohanaapp.utils.Animaciones;
+
 public class RegistroAct extends AppCompatActivity{
     //★Inicio
     @Override
@@ -15,7 +17,7 @@ public class RegistroAct extends AppCompatActivity{
         {
             MaterialButton Btn1 = findViewById(R.id.button_register);
             Btn1.setOnClickListener(v->{
-                Utils.AnimationBtn(Btn1);
+                Animaciones.AnimationBtn(Btn1);
             });
         }
         //★Botton Cerrar
